@@ -1,5 +1,7 @@
 # Fast Model Actuation
 
+[![E2E (OCP GPU)](https://github.com/llm-d/llm-d/actions/workflows/consolidate-status-fast-model-actuation-ibm-acc-gpu-vllm-x.yaml/badge.svg)](https://github.com/llm-d/llm-d/actions/workflows/consolidate-status-fast-model-actuation-ibm-acc-gpu-vllm-x.yaml)
+
 ## Overview
 
 Fast Model Actuation (FMA) enables rapid model loading and switching for LLM inference on Kubernetes by exploiting vLLM sleep/wake and model swapping. In Kubernetes, GPUs are bound 1-to-1 to pods: a pod that requests a GPU holds it exclusively for its lifetime. FMA uses the following **dual pod** technique to circumvent this constraint:
