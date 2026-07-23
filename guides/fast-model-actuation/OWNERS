@@ -1,0 +1,7 @@
+# Owners of the Fast Model Actuation (FMA) guide.
+# Being listed here grants approve/review on this guide's files and permission
+# to trigger its nightly E2E via the `/test-nightly` PR slash command.
+approvers:
+- aavarghese
+reviewers:
+- aavarghese
